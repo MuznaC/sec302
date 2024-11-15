@@ -1,0 +1,83 @@
+body{
+    font-family: Cormorant, serif; /*Sets the font to Cormorant*/
+    font-weight: 300; /* sets the boldness of the font */
+}
+
+h1{
+    display:inline-block; /*generates content as if it's in single line block  */
+    font-weight: 300;  /* sets the boldness of the font */
+    margin: 30px;   /*adds margins around h1 */
+}
+
+.lists a{
+    color:black; /*sets font color */
+    text-decoration: none;  /*removes text decoration i.e. the underline */
+    font-size: 20px; /*adjusts the size of the font*/
+    margin: 0 8px; /*margins for <a> elements*/
+}
+
+.lists li{
+    display: inline-block; /*generates content as if it's in single line block*/
+}
+
+.lists{
+    display: inline-block; /*generates content as if it's in single line block  */
+}
+
+a.active{
+    border-bottom: 1px solid black; /*sets border in the bottom of <a> element with class "active"*/
+}
+
+.links ul{
+    padding:0; /*removes any padding around <ul> */
+}
+
+/*stylzing photo gallery section*/
+
+.box img{
+    
+    height: 500px; /* sets the height of the image inside the class "box" */
+    width: 100%;  /* sets the width of the image inside the class "box" */
+    object-fit: cover; /*keeps the aspect ration of an image*/ 
+}
+
+.box h2{
+    display: inline-block;  /*generates content as if it's in single line block  */
+    font-weight: 300; /* sets the boldness of the <h2> inside the class "box" */
+    padding: 0 2px 0 0; /* adjusts the padding of the <h2> inside the class "box" */
+}
+
+.box{
+    width:49.75%;     /*generates equal width for each <div> element  */
+    display: inline-block; /*generates content as if it's in single line block  */
+    box-sizing: border-box; /*defines how width or height should be calculated, should it include the paddings or borders */
+    padding:16px; /* adjusts the padding of the <div> element with class "box" */
+}
+/*Stylizing About section*/
+
+.about{
+    width: 40%; /* sets the width of the <section> with class "about" */
+    min-width: 600;   /*defines the minimum width of an element*/
+    margin: 100px 0 100px 200px;  /*margins for <section> element with class"about"*/
+}
+
+.about h3{
+    font-size: 30px; /*adjusts the font size of <h3> */
+}
+
+
+.contact{
+    margin-top:100px; /*adjusts the margins of <div> element with class"contact"*/
+}
+
+.contact p{
+    margin: 0; /*adjusts the margins of a paragraph inside the <div> element with class"contact"*/
+    font-size: 20px; /*adjusts the font size of <p> */
+
+}
+.promotions{
+    border-bottom: 1px solid black; /*adds border at the bottom of the <h3> with class "promotions"*/
+    display: inline-block; /*generates content as if it's in single line block  */
+    padding-bottom: 8px; /*adds the padding only at the bottom of <h3> */
+    margin-top: 0; /*adds margin only at the top of the <h3>*/
+}
